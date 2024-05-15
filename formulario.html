@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario de Nombre y Apellido</title>
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+
+<div class="container">
+    <h1> Formulario </h1>
+    <form action="/submit" method="post">
+        <div class="input-field">
+            <label for="nombre">Nombre:</label>  <!-- label de nombre-->
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="input-field">
+            <label for="apellido">Apellido:</label>   <!-- label de apellido-->
+            <input type="text" id="apellido" name="apellido" required>  
+        </div>
+        <div>
+            <button class="btn waves-effect waves-light" type="submit">Enviar</button>   <!-- boton de enviar-->
+        </div>
+    </form>
+</div>
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</body>
+</html>
